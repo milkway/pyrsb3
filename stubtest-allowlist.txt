@@ -1,0 +1,2 @@
+# __all__ do módulo nativo é interno; o pacote reexporta tudo
+rsb3._rsb3.__all__

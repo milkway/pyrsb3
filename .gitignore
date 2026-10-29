@@ -1,0 +1,11 @@
+/target
+Cargo.lock
+__pycache__/
+*.so
+*.pyd
+.venv/
+dist/
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+.claude/
