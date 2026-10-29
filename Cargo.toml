@@ -19,7 +19,7 @@ rsb3 = "=0.2.0"
 # Mesma versão major do arrow que o rsb3 usa; `pyarrow` traz a ponte C Data
 # Interface (RecordBatch Rust <-> pyarrow sem cópia).
 arrow = { version = "60", default-features = false, features = ["pyarrow"] }
-pyo3 = { version = "0.29", features = ["abi3-py39", "chrono"] }
+pyo3 = { version = "0.29", features = ["abi3-py310", "chrono"] }
 chrono = "0.4"
 
 [profile.release]
