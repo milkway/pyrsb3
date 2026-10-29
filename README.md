@@ -4,6 +4,10 @@
 > centavos inteiros, em Rust. *B3 (Brazilian stock exchange) public files as
 > Arrow: a strict COTAHIST parser with integer-cent prices, in Rust.*
 
+[![PyPI](https://img.shields.io/pypi/v/pyrsb3)](https://pypi.org/project/pyrsb3/)
+[![CI](https://github.com/milkway/pyrsb3/actions/workflows/ci.yml/badge.svg)](https://github.com/milkway/pyrsb3/actions)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23784907.svg)](https://doi.org/10.5281/zenodo.23784907)
+
 Bindings Python do crate [`rsb3`](https://crates.io/crates/rsb3). O parser, o
 download com cache e a escrita Parquet são do crate; este pacote só converte,
 e entrega o resultado como `pyarrow.Table` pela Arrow C Data Interface, sem

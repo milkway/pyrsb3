@@ -3,6 +3,7 @@ message: "If you use this package, please cite it as below."
 title: "pyrsb3: B3 public files as Arrow (Python bindings of the rsb3 Rust crate)"
 type: software
 license: MIT
+doi: 10.5281/zenodo.23784907
 repository-code: "https://github.com/milkway/pyrsb3"
 url: "https://pypi.org/project/pyrsb3/"
 authors:
