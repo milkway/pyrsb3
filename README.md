@@ -13,6 +13,9 @@ download com cache e a escrita Parquet são do crate; este pacote só converte,
 e entrega o resultado como `pyarrow.Table` pela Arrow C Data Interface, sem
 cópia. O GIL é solto enquanto o Rust trabalha.
 
+> Projeto independente, sem vínculo com a B3 S.A. – Brasil, Bolsa, Balcão, nem
+> mantido ou endossado por ela ou pelos autores do pacote R `{rb3}`.
+
 ```bash
 pip install pyrsb3
 ```
@@ -68,6 +71,14 @@ uv venv -p 3.12 .venv && uv pip install -p .venv maturin pytest pyarrow
 .venv/bin/maturin develop --release
 .venv/bin/pytest                 # -m network inclui um download oficial
 ```
+
+## Relação com o `{rb3}`
+
+O nome `rsb3` diverge de `rb3` **de propósito**: o pacote R da rOpenSci
+(de Wilson Freitas e colaboradores) é a referência da área e é usado no crate
+como oráculo diferencial, não como concorrente. Este pacote cobre o caso
+"quero os arquivos da B3 como Arrow em Python" — se você trabalha em R, use o
+[`{rb3}`](https://github.com/ropensci/rb3).
 
 ## Licença
 
